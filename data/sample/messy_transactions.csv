@@ -1,0 +1,61 @@
+﻿Txn_ID,Account,Date,Amount,Description
+TX001,Main Till,2026-09-01,"KSh 1,500",M-Pesa received from 0712345678
+TX002,Main Till,01/09/2026,"2,750.50",Customer payment - shop sale
+TX003,Sales Account,2026/09/02,"KSh 4,200",Till collection
+TX004,Main Till,03-09-2026,"1,250",Cash deposit
+,Main Till,2026-09-04,"KSh 800",Anonymous cash
+TX006,Main Till,not-a-date,"KSh 950",Broken date row
+TX007,Sales Account,2026-09-05,CASH_ONLY,Text instead of amount
+TX008,Main Till,2026-09-06,"3,500",Normal transaction
+TX009,Main Till,2026-09-07,"KSh 12,450.75",Large M-Pesa transfer
+TX010,Sales Account,2026-09-08,"2,000",Sacco contribution
+TX011,Main Till,,"KSh 600",Missing date
+TX012,Main Till,2026-09-10,"1,100",Office supplies refund
+TX013,Sales Account,10/09/2026,"750.25",Small sale
+TX014,Main Till,2026-09-11,"KSh 5,000",Loan repayment
+TX015,Main Till,2026-09-12,-500,Negative adjustment
+TX016,Sales Account,2026-09-13,"7,250",Weekly collection
+TX017,Main Till,2026-09-14,"",Empty amount
+TX018,Sales Account,2026/09/15,"KSh 900",Member deposit
+TX019,Main Till,16-09-2026,"1,350.00",Normal
+TX020,Main Till,2026-09-17,"KSh 2,100",M-Pesa from 0722112233
+TX021,Petty Cash,17/09/2026,"KSh 350",Tea and transport
+TX022,Main Till,18-09-2026,"4,800.00",Bulk payment received
+TX023,Bank Account,2026-09-19,"KES 15,000",Bank transfer in
+TX024,Main Till,19/09/2026,"KSh 1,050",Shop sale
+TX025,Sales Account,20.09.2026,"2,300",Till reconciliation
+TX026,Main Till,2026-09-21,,Missing amount completely
+TX027,Main Till,21/09/2026,"KSh  2 500",Spaces inside amount
+TX028,Sales Account,22-09-2026,"KSh3,750",No space after KSh
+TX029,Main Till,23 Sep 2026,1800,No currency, no commas
+TX030,Petty Cash,24/09/2026,"-1,200.50",Refund / reversal
+TX031,,2026-09-25,"KSh 900",Missing Account
+TX032,Main Till,25/09/2026,"KSh 6,400.00",Sacco share capital
+TX033,Sales Account,26-09-2026,abc123,Completely invalid amount
+TX034,Main Till,27/09/2026,"3,000",Duplicate-looking later
+TX035,Main Till,2026-09-27,"3,000",Same amount different day
+TX036,Bank Account,28.09.2026,"KES 22,500.75",Large bank credit
+TX037,Main Till,29/09/2026,"KSh 450.00",Small cash
+TX038,Sales Account,30-09-2026,"1,875",End of month
+TX039,Main Till,01/10/2026,"KSh 9,100",October start
+TX040,Petty Cash,02-10-2026,"KSh 75",Very small expense
+TX041,Main Till,03/10/2026,"",Empty amount again
+TX042,Sales Account,04.10.2026,"4,550.25",Mixed format
+TX043,Main Till,5 Oct 2026,"KSh 2,800",Written month
+TX044,Bank Account,06/10/2026,"KES 11,000",Salary-related?
+TX045,Main Till,07-10-2026,"KSh 1,650.50",M-Pesa
+TX046,Sales Account,08/10/2026,2.500,European style decimal (wrong)
+TX047,Main Till,09.10.2026,"KSh 3,200",Normal
+TX048,Petty Cash,10/10/2026,-75,Negative petty cash
+TX049,Main Till,11-10-2026,"KSh 7,800.00",Big collection
+TX050,Sales Account,12/10/2026,"1,999",Almost 2k
+TX051,Main Till,13.10.2026,KSh,Only currency no number
+TX052,Bank Account,14/10/2026,"KES 5,500.00",Transfer
+TX053,Main Till,15-10-2026,"2,450",Normal
+TX054,Sales Account,16/10/2026,"KSh 8,100.75",Large
+TX055,Main Till,17.10.2026,"   950  ",Spaces around amount
+TX056,Petty Cash,18/10/2026,"KSh 120",Transport
+TX057,Main Till,19-10-2026,"3,600",Normal
+TX058,Sales Account,20/10/2026,"KSh 4,750.00",Collection
+TX059,Main Till,21.10.2026,,Blank amount + weird date
+TX060,Main Till,22/10/2026,"KSh 1,000",Clean looking row
