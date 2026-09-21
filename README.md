@@ -4,7 +4,7 @@
 
 Imara is a lightweight reconciliation tool for small businesses, Saccos, NGOs, and teams that manually compare financial records from different sources.
 
-It takes two transaction datasets — for example, an M-Pesa export and an internal ledger — cleans the data, compares the records, and highlights transactions that do not match.
+It takes two transaction datasets for example, an M-Pesa export and an internal ledger — cleans the data, compares the records, and highlights transactions that do not match.
 
 > **Goal:** turn a slow, repetitive spreadsheet task into a clear and repeatable process.
 
